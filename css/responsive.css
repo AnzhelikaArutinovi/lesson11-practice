@@ -1,0 +1,29 @@
+@media (max-width: 565px) {
+    /* Header styles */
+    .fa-bars {
+        display: inline-block;
+    }
+    .navigation {
+        display: none;
+    }
+    /* First section elements styles */
+    .flex-wraper1 {
+        flex-direction: column;
+        top:0;
+        left: 0;
+        transform: translate(0px, 30px)
+    }
+    .top-div-wraper, .bottom-div-wraper {
+        width: 90%;
+    }
+    .left-block01, .right-block01 {
+        width: 100%;
+    }
+    .right-block01 > h2 {
+    font-size: 40px;
+    line-height: 60px;
+    }
+    hr {
+        width: 90%;
+    }
+}
